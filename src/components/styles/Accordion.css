@@ -29,13 +29,13 @@
   }
 }
 .accordion__img img {
-  /* background-image: url(./public/assets/images/bg-pattern-mobile.svg); */
+  background-image: url(./../../images/bg-pattern-mobile.svg);
   background-position: top 0% left 44%;
   background-size: cover;
 }
 @media (min-width: 1024px) {
   .accordion__img img {
-    /* background-image: url(../../images/bg-pattern-desktop.svg); */
+    background-image: url(./../../images/bg-pattern-desktop.svg);
     padding: 9rem 0;
     background-position: right -1% top 68%;
     background-size: initial;
