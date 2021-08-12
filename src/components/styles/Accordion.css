@@ -1,0 +1,106 @@
+.accordion {
+  background-color: #ffffff;
+  border-radius: 1rem;
+  padding: 3rem 2rem;
+  margin-top: 10rem;
+  width: 305px;
+}
+@media (min-width: 1024px) {
+  .accordion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 0;
+    padding-right: 8rem;
+    padding-left: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+}
+.accordion__img {
+  margin-top: -12rem;
+  position: relative;
+}
+@media (min-width: 1024px) {
+  .accordion__img {
+    margin-top: 0;
+    width: 400px;
+  }
+}
+.accordion__img img {
+  /* background-image: url(./public/assets/images/bg-pattern-mobile.svg); */
+  background-position: top 0% left 44%;
+  background-size: cover;
+}
+@media (min-width: 1024px) {
+  .accordion__img img {
+    /* background-image: url(../../images/bg-pattern-desktop.svg); */
+    padding: 9rem 0;
+    background-position: right -1% top 68%;
+    background-size: initial;
+    margin-left: -6rem;
+  }
+}
+.accordion__img .img-arroba {
+  display: none;
+}
+@media (min-width: 1024px) {
+  .accordion__img .img-arroba {
+    display: block;
+    position: absolute;
+    top: 8rem;
+    left: -2rem;
+    z-index: 100;
+  }
+}
+.accordion__content h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 2.5rem 0;
+  color: #1d1e35;
+}
+@media (min-width: 1024px) {
+  .accordion__content {
+    padding-bottom: 5rem;
+  }
+}
+@media (min-width: 1024px) {
+  .accordion__item {
+    width: 330px;
+  }
+}
+.accordion__item .content-show {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7rem 0;
+  cursor: pointer;
+}
+.accordion__item .content-show h3 {
+  font-weight: 300;
+  font-size: 1rem;
+  transition: color 0.2s ease-in-out;
+}
+.accordion__item .content-show h3:hover {
+  color: #f47c57;
+}
+@media (min-width: 1024px) {
+  .accordion__item .content-show h3 {
+    font-size: 1.1rem;
+  }
+}
+.accordion__item .content-show button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+.accordion__item p {
+  padding: 0.5rem 0;
+  color: #787887;
+  line-height: 1.4;
+  display: none;
+  transition: all 3s ease-in-out;
+}
+.accordion__item .show {
+  display: block;
+}
