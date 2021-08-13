@@ -62,7 +62,7 @@ const Accordion = () => {
         <h2>FAQ</h2>
 
         {details.map((detail) => (
-          <AccordionItem key={detail.id} details={detail} />
+          <AccordionItem key={detail.id} {...detail} />
         ))}
       </div>
     </section>

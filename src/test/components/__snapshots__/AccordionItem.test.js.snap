@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el archivo AccordionItem.js Debe de renderizar correctamente 1`] = `
+<div
+  className="accordion__content__wrapper"
+>
+  <div
+    className="accordion__item"
+  >
+    <div
+      className="content-show"
+      onClick={[Function]}
+    >
+      <h3>
+        titulo
+      </h3>
+      <button
+        className="arrow-show"
+        type="button"
+      >
+        <img
+          alt="icon arrow down"
+          src="/assets/images/icon-arrow-down.svg"
+        />
+      </button>
+    </div>
+    <p
+      className="parrafo hidden"
+    >
+      descripcion 
+    </p>
+    <hr />
+  </div>
+</div>
+`;

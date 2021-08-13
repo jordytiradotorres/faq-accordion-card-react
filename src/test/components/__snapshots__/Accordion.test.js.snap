@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el archivo Accordion.js Debe de renderizar correctamente 1`] = `
+<section
+  className="accordion"
+>
+  <div
+    className="accordion__img"
+  >
+    <picture>
+      <source
+        media="(min-width: 768px)"
+        srcSet="/assets/images/illustration-woman-online-desktop.svg"
+      />
+      <img
+        alt="illustration woman"
+        src="/assets/images/illustration-woman-online-mobile.svg"
+      />
+    </picture>
+    <img
+      alt="pattern"
+      className="img-arroba"
+      src="/assets/images/illustration-box-desktop.svg"
+    />
+  </div>
+  <div
+    className="accordion__content"
+  >
+    <h2>
+      FAQ
+    </h2>
+    <AccordionItem
+      description="You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan."
+      id={1}
+      key="1"
+      title="How many team members can I invite?"
+    />
+    <AccordionItem
+      description="No more than 2GB. All files in your account must fit your allotted storage space."
+      id={2}
+      key="2"
+      title="What is the maximum file upload size?"
+    />
+    <AccordionItem
+      description="Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you."
+      id={3}
+      key="3"
+      title="How do I reset my password?"
+    />
+    <AccordionItem
+      description="Yes! Send us a message and we’ll process your request no questions asked."
+      id={4}
+      key="4"
+      title="Can I cancel my subscription?"
+    />
+  </div>
+</section>
+`;

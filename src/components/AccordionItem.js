@@ -1,10 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
 
-const AccordionItem = ({ details }) => {
+const AccordionItem = ({ title, description }) => {
   const [show, setShow] = useState(false);
   const h3 = useRef();
-
-  const { title, description } = details;
 
   useEffect(() => {
     show
